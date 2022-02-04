@@ -24,7 +24,7 @@ var rewards;
 
 
 async function fetchText() {
-    let response = await fetch('https://raw.githubusercontent.com/mikifu/rarity/main/rarity.txt');
+    let response = await fetch('https://raw.githubusercontent.com/mikifu/rarityopensea/master/rar.txt');
     let data = await response.text();
     data = data.split("\n");
     let rar = data[0].split(",")
